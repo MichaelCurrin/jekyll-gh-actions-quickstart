@@ -24,7 +24,7 @@ jobs:
       - name: Build Jekyll site
         run: |
           docker run \
-            -v ${{ github.workflow }}:/srv/jekyll \
+            -v ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:4 \
             /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
