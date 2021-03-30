@@ -1,6 +1,6 @@
-# If you don't set these, they will be inferred from the repo's description on GitHub.
+title: Jekyll GH Actions Quickstart
+description: Starter for a Jekyll 4 site - deployed with GH Actions and GH Pages 
 
-# title: My project title
-# description: My description
+baseurl: /jekyll-gh-actions-quickstart
 
 theme: minima
