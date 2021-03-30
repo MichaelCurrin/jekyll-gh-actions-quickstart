@@ -2,17 +2,14 @@
 title: Homepage
 ---
 
-[![MichaelCurrin - jekyll-themed-site-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-themed-site-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-themed-site-quickstart)
+[![MichaelCurrin - jekyll-gh-actions-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-gh-actions-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart)
 
 
 ## Resources
 
-- [Jekyll resources](https://michaelcurrin.github.io/dev-resources/resources/jekyll/)
-- [Jekyll](https://jekyllrb.com/) homepage.
-- [Jekyll quickstart](https://jekyllrb.com/docs/) page in the Jekyll docs.
-- [Jekyll themes](https://jekyllrb.com/docs/themes/)
-- [Jekyll directory structure](https://jekyllrb.com/docs/structure/)
-- [GitHub Pages](https://pages.github.com/) docs.
+- [Jekyll](https://michaelcurrin.github.io/dev-resources/resources/jekyll/)
+- [GitHub Actions](https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/)
+- [GitHub Pages](https://michaelcurrin.github.io/dev-resources/resources/web/github-pages.html)
 
 
 ## Create your own
