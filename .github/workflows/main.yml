@@ -21,8 +21,9 @@ jobs:
       - name: Build Jekyll site
         run: |
           docker run \
-            -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-            jekyll/builder:latest \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+            jekyll/builder:4 \
             /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
       - name: Deploy to GH Pages 🚀
