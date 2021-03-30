@@ -18,10 +18,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+     
       - name: Build Jekyll site
         run: |
           docker run \
-            -v "$PWD:/srv/jekyll" \
+            -v ${{ github.workflow }}:/srv/jekyll \
             jekyll/builder:4 \
             /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
