@@ -4,8 +4,8 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-themed-site-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/jekyll-themed-site-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Made with Ruby](https://img.shields.io/badge/Ruby->%3D2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
-[![Made with Jekyll](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
+[![Made with Ruby](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
+[![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.x-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 
 
 ## Preview
