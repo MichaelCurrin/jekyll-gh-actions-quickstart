@@ -1,6 +1,7 @@
 # Jekyll GH Actions Quickstart
 > Starter for a Jekyll 4 site - deployed with GH Actions and GH Pages 
 
+[![GH Pages deploy](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/workflows/GH%20Pages%20deploy/badge.svg)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/actions?query=workflow:"GH+Pages+deploy")
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-gh-actions-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
