@@ -4,3 +4,8 @@ description: Starter template for a Jekyll 4 site - deployed with GH Actions and
 baseurl: /jekyll-gh-actions-quickstart
 
 theme: minima
+
+exclude:
+  - LICENSE
+  - README.md
+  - sample.png
