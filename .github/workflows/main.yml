@@ -24,9 +24,9 @@ jobs:
       - name: Build Jekyll site
         run: |
           docker run \
-            -v ${{ github.workspace }}:/srv/jekyll \
+            -v "$PWD:/srv/jekyll" \
             jekyll/builder:4 \
-            /bin/bash -c 'chmod 777 /srv/jekyll && jekyll build --future'
+            /bin/bash -c 'jekyll version && bundle exec jekyll --version && chmod 777 /srv/jekyll && jekyll build --future'
 
       - name: Deploy to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' }}
