@@ -31,9 +31,7 @@
 
 </div>
 
-Then wait for the first workflow to complete - see your _Actions_ tab.
-
-Then setup your repo's _Settings_ section to deploy a GitHub Pages site from the `gh-pages` branch which was created by the CI deploy.
+To see what to do next, follow the instructions on the below site linked.
 
 ### View the live demo
 
