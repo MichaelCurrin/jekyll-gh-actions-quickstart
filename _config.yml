@@ -1,10 +1,20 @@
+### Site metadata
+
 title: Jekyll GH Actions Quickstart
 description: Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages 
+
+### Build settings
 
 url: https://michaelcurrin.github.io
 baseurl: /jekyll-gh-actions-quickstart
 
 theme: just-the-docs
+
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      layout: page
 
 exclude:
   - LICENSE
