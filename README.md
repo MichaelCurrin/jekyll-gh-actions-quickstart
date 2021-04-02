@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Ruby](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
-[![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.x-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
+[![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 [![Made with GH Actions](https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
