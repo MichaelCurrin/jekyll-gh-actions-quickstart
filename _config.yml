@@ -1,9 +1,10 @@
 title: Jekyll GH Actions Quickstart
 description: Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages 
 
+url: https://michaelcurrin.github.io
 baseurl: /jekyll-gh-actions-quickstart
 
-theme: minima
+theme: just-the-docs
 
 exclude:
   - LICENSE
