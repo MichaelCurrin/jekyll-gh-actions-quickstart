@@ -14,7 +14,7 @@
 
 ## Preview
 
-Site served with GitHub Pages:
+View the demo site on GitHub Pages:
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/">
