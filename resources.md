@@ -1,4 +1,6 @@
-# Resources
+---
+title: Resources
+---
 
 Pages on my Dev Resources project.
 
