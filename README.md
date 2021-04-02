@@ -22,7 +22,7 @@ View the demo site on GitHub Pages:
     </a>
 </div>
 
-This project uses **GitHub Actions** to build the site with Jekyll 4 and make the output available to serve as static output with GitHub Pages. Read more on page linked above.
+This project uses **GitHub Actions** to build the site with Jekyll 4 and make the output available to serve as static output with GitHub Pages. More details are covered on the [demo site](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/).
 
 
 ## How use this project
