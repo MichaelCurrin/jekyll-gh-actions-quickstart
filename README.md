@@ -14,11 +14,27 @@
 
 ## Preview
 
+Site served with GitHub Pages. 
+
+
 <div align="center">
     <a href="https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/">
         <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
     </a>
 </div>
+
+
+## About
+
+This site used a homepage, Gemfile and config, as with most Jekyll sites.
+
+To avoid the limitations of the GitHub Pages environment such as no Jekyll 4 or non-standard gems, this template project uses GitHub Actions to build the site.
+
+See [main.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/.github/workflows/main.yml) workflow file.
+
+The CI runs to setup the environment, build the site and then commit to the gh-pages branch.
+
+Then that output is served as static output with GitHub Pages.
 
 
 ## How use this project
