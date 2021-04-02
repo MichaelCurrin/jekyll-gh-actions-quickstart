@@ -8,14 +8,15 @@ layout: default
 
 ## About
 
-This site used a homepage (`index.md`), Gemfile and config, as with most Jekyll sites.
+This site used a homepage (`index.md`), Gemfile and config, as most Jekyll sites do.
 
-To avoid the limitations of the GitHub Pages environment such as no Jekyll 4 or non-standard gems, this template project uses GitHub Actions to build the site. 
+But, to avoid the limitations of the GitHub Pages environment such as no Jekyll 4 or non-standard gems, this template project uses GitHub Actions to build the site. 
 
 See [main.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/.github/workflows/main.yml) workflow file.
 
 On a commit, the CI runs to setup the environment, build the site and then commit to the [gh-pages](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/tree/gh-pages) branch. Then that output is served as static output with GitHub Pages.
 
+The [just-the-docs](https://pmarsceill.github.io/just-the-docs/) theme is setup - see Gemfile and config. You can use any Jekyll theme you want, as long as it is compatiable with Jekyll 4.
 
 
 ## Create your own
