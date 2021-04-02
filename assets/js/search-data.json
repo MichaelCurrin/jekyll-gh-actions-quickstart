@@ -7,7 +7,7 @@
   },"1": {
     "doc": "Resources",
     "title": "Resources",
-    "content": "Pages on my Dev Resources project. - [Jekyll](https://michaelcurrin.github.io/dev-resources/resources/jekyll/) - [GitHub Actions](https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/) - [GitHub Pages](https://michaelcurrin.github.io/dev-resources/resources/web/github-pages.html) ",
+    "content": "If you want to learn how about the tools and services used to make this project, see the links below. - [Jekyll](https://michaelcurrin.github.io/dev-resources/resources/jekyll/) resources. - [GitHub Actions](https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/) resources. - [GitHub Pages](https://michaelcurrin.github.io/dev-resources/resources/web/github-pages.html) resources. If you are interested in seeing more Jekyll projects, have a look at my [jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo/). It is based on the Jekyll CLI quickstart and doesn't use GH Actions. ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/resources.html",
     "relUrl": "/resources.html"
   },"2": {
