@@ -28,25 +28,3 @@ The [just-the-docs](https://pmarsceill.github.io/just-the-docs/) theme is setup 
 1. Enable a GitHub Pages site on the root of the `gh-pages` branch.
 1. Go to the _Environment_ section on the right of repo to check the status of the build.
 1. When it is done, click View Deploment to open your site.
-
-
-## Resources
-
-Pages on my Dev Resources project.
-
-- [Jekyll](https://michaelcurrin.github.io/dev-resources/resources/jekyll/)
-- [GitHub Actions](https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/)
-- [GitHub Pages](https://michaelcurrin.github.io/dev-resources/resources/web/github-pages.html)
-
-
-## Setup locally
-
-This project is not indended to be run locally with a dev server.
-
-If you want to run it locally, I recommend following instructions and setup on this project.
-
-[![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo)
-
-It covers installing Ruby, Bundle and project gems locally (including Jekyll). It has a `Gemfile` which you can use to get started.
-
-That uses a plain GH Pages and Jekyll 3.9 approach without GH Actions though.
