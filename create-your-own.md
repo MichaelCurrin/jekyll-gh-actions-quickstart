@@ -12,3 +12,7 @@ Get a copy of this template project which you can easily run and host on your Gi
 1. Enable a GitHub Pages site on the **root** path of the `gh-pages` branch.
 1. Go to the _Environment_ section on the right of repo to check the status of the build.
 1. When it is done, click _View Deploment_ to open your site URL.
+
+Then you can customize the config, theme, plugins, etc. as you need to.
+
+The Just The Docs theme picks up files automatically and adds them to the navbar, so if you are happy with alphabetical menu, then so you don't have to worry about configuring a navbar. You can also set a custom ordering using `nav_order: 1` to put the page first, as such as homepage.
