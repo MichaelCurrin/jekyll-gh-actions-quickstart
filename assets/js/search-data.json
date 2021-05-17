@@ -10,11 +10,5 @@
     "content": "If you want to learn how about the tools and services used to make this project, see the links below. - [Jekyll](https://michaelcurrin.github.io/dev-resources/resources/jekyll/) resources. - A static site generator which uses markdown or HTML content and allows use of themes. - [GitHub Actions](https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/) resources. - Including links to the officials docs and my blog posts own getting started with GH Actions. Plus there are links to my cookbook and cheatsheets so you can learn more about GitHub Actions - solving a variety of cased around Jekyll, Node, Python and more. - [GitHub Pages](https://michaelcurrin.github.io/dev-resources/resources/web/github-pages.html) resources. - For hosting your static website. I also wrote a tutorial on the Jekyll around using GitHub Actions. So check that out for more info on how this template works. The main difference is that the tutorial uses a Jekyll-specific action while this template project uses a more generic but easy Ruby-based flow. - [CI/CD - GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) If you are interested in seeing more Jekyll projects, have a look here. This is based on the Jekyll CLI quickstart but doesn't use GH Actions. - [jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo/) ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/resources.html",
     "relUrl": "/resources.html"
-  },"2": {
-    "doc": "Set up locally",
-    "title": "Set up locally",
-    "content": "This project is **not** indended to be run locally with a dev server. But if you **do** want to run it locally, I recommend following instructions and set up steps as on this project. - [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) It covers installing Ruby, Bundle and project gems locally (including Jekyll). It has a `Gemfile` which you can use to get started. Though, that uses the standard GH Pages and Jekyll 3.9 approach. And without GH Actions. ",
-    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/set-up-locally.html",
-    "relUrl": "/set-up-locally.html"
   }
 }
