@@ -1,4 +1,4 @@
-# Jekyll GH Actions Quickstart
+# Jekyll GH Actions Quickstart 🧪 🎬 🚀
 > Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages 
 
 [![GH Pages deploy](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/workflows/GH%20Pages%20deploy/badge.svg)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/actions/workflows/main.yml)
