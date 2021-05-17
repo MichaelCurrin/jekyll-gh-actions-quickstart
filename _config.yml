@@ -17,6 +17,7 @@ defaults:
       layout: page
 
 exclude:
+  - docs/
   - LICENSE
   - README.md
   - sample.png
