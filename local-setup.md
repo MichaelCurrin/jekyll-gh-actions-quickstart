@@ -1,4 +1,6 @@
-# Local setup
+---
+title: Local setup
+---
 
 This project is **not** indended to be run locally with a dev server.
 
