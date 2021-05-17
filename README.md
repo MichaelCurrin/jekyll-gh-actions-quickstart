@@ -29,15 +29,19 @@ This project uses **GitHub Actions** to build the site with Jekyll 4 and make th
 
 ### Add to your repos
 
+Follow the instructions on the [Create your own](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html) page.
+
+Or click this button:
+
 <div align="center">
 
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/generate)
 
 </div>
 
-To see what to do next, follow the instructions on the below site linked.
-
 ### View the live demo
+
+This demo site includes a few pages of markdown content and also acts as a guide on how to use this project.
 
 <div align="center">
 
