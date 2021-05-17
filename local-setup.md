@@ -1,10 +1,8 @@
----
-title: Set up locally
----
+# Local setup
 
 This project is **not** indended to be run locally with a dev server.
 
-But if you **do** want to run it locally, I recommend following instructions and set up steps as on this project.
+But, if you **do** want to run it locally, I recommend following instructions and set up steps as on this project.
 
 - [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 
