@@ -2,11 +2,15 @@
 title: About
 ---
 
-As most Jekyll sites do, this site uses a homepage (the `index.md` page), a `Gemfile` and a config file.. 
+## Limitations of Jekyll on plain GitHub Pages
+
+As most Jekyll sites do, this site uses a homepage (the `index.md` page), a `Gemfile` and a config file..
 
 But, there are limitations of the GitHub Pages environment. You cannot use Jekyll 4 or non-standard gems and you cannot add Python, Node, Hugo, etc. to your build flow.
 
-To overcome these, this template project uses a GitHub Actions workflow.
+To overcome these limitations, this template project uses a GitHub Actions workflow.
+
+## GitHub Actions set up
 
 See [main.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/.github/workflows/main.yml) workflow file.
 
@@ -22,4 +26,13 @@ The CI actually also runs on a PR against the main branch too - it just last ski
 
 See [Actions](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/actions/workflows/main.yml) section on the repo for logs of job runs.
 
-The [just-the-docs](https://pmarsceill.github.io/just-the-docs/) theme was set up - see the Gemfile and config. You can use any Jekyll theme you want - as long as it is compatiable with Jekyll 4.
+
+## Theme
+
+A theme is set up in the `Gemfile` and `_config.yml` files.
+
+You can use any Jekyll theme you want - as long as it is compatible with Jekyll 4.
+
+The [just-the-docs](https://pmarsceill.github.io/just-the-docs/) Jekyll theme was chosen for this project, as it gives a lot of functionality without you having to write HTML and CSS, so you can focus on writing in markdown. The theme focuses on presenting content for a documentation website - so it is ideal if you have code in a repo and want to host a docs site for it without writing a lot of code. 
+
+To keep your docs separate from your app code, your docs site might be in a `docs` subdirectory, a `docs` branch (still building to `gh-pages` or a separate repo.
