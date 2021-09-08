@@ -11,7 +11,7 @@ Get a copy of this template project which you can easily run and host on your Gi
 1. Go to your repo's _Settings_.
 1. Enable a GitHub Pages site on the **root** path of the `gh-pages` branch.
 1. Go to the _Environment_ section on the right of repo to check the status of the build.
-1. When it is done, click _View Deploment_ to open your site URL.
+1. When it is done, click _View Deployment_ to open your site URL.
 
 Then you can customize the config, theme, plugins, etc. as you need to.
 
