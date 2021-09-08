@@ -17,20 +17,27 @@
 
 ## Preview
 
-View the demo site on GitHub Pages:
-
 <div align="center">
     <a href="https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="500" />
+        <img src="/sample.png" alt="Sample screenshot" title="Go to demo site" width="500" />
     </a>
 </div>
 
-This project uses **GitHub Actions** to build the site with Jekyll 4 and make the output available to serve as static output with GitHub Pages. More details are covered on the [demo site](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/).
+
+## Website
+
+This project uses **GitHub Actions** to build the site with Jekyll 4 and make the output available to serve as static output with GitHub Pages. 
+
+The demo site includes a few pages of Markdown content and also acts as a guide on how to use this project.
+
+<div align="center">
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/ "Go to demo site")
+
+</div>
 
 
-## How use this project
-
-### Add to your repos
+## How to use this template
 
 Follow the instructions on the [Create your own](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html) page.
 
@@ -39,16 +46,6 @@ Or click this button:
 <div align="center">
 
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/generate)
-
-</div>
-
-### View the live demo
-
-This demo site includes a few pages of markdown content and also acts as a guide on how to use this project.
-
-<div align="center">
-
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/)
 
 </div>
 
