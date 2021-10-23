@@ -50,6 +50,14 @@ Or click this button:
 </div>
 
 
+## Related projects
+
+These use Jekyll 3.
+
+- [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) - default blog generated with Jekyll CLI. Using a theme, content, style set up, gems, and a Makefile.
+- [![MichaelCurrin - jekyll-themed-site-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) - minimal Jekyll site with a theme but no Gemfile.
+
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
