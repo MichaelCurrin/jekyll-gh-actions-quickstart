@@ -30,7 +30,7 @@ This project uses **GitHub Actions** to build the site with Jekyll 4 and make th
 
 Highlights:
 
-- [main.yml](/.github/workflows/main.yml) workflow config for GH Actions - using a few _generic_ Actions from the marketplace as steps (to avoid relying into an over-specialized complex Action that does too much and can't be used outside of Jekyll sites).
+- [main.yml](/.github/workflows/main.yml) workflow config for GH Actions - using a few _generic_ Actions from the marketplace as steps 
 - [Gemfile](/Gemfile) specifies Jekyll 4 - which is not possible when using GH Pages without GH Actions.
 
 
