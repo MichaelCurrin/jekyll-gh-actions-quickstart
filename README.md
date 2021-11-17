@@ -24,9 +24,17 @@
 </div>
 
 
-## Website
+## About 
 
 This project uses **GitHub Actions** to build the site with Jekyll 4 and make the output available to serve as static output with GitHub Pages. 
+
+Highlights:
+
+- [main.yml](/.github/workflows/main.yml) workflow config for GH Actions - using a few _generic_ Actions from the marketplace, to avoid getting locked into an over-specialized Action that does too much and can't be used outside of Jekyll sites.
+- [Gemfile](/Gemfile) specifies Jekyll 4 - which is not possible when using GH Pages without GH Actions.
+
+
+## Website
 
 The demo site includes a few pages of Markdown content and also acts as a guide on how to use this project.
 
