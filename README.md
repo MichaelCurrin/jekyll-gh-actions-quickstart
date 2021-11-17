@@ -36,7 +36,7 @@ Highlights:
 
 ## Website
 
-The demo site includes a few pages of Markdown content and also acts as a guide on how to use this project.
+The demo site includes a few pages of Markdown content. This also acts as a guide on how to use this project.
 
 <div align="center">
 
