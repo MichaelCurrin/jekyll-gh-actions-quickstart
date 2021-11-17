@@ -38,6 +38,12 @@ A theme is set up in the `Gemfile` and `_config.yml` files.
 
 You can use any Jekyll theme you want - as long as it is compatible with Jekyll 4.
 
-The [just-the-docs](https://pmarsceill.github.io/just-the-docs/) Jekyll theme was chosen for this project, as it gives a lot of functionality without you having to write HTML and CSS, so you can focus on writing in markdown. The theme focuses on presenting content for a documentation website - so it is ideal if you have code in a repo and want to host a docs site for it without writing a lot of code.
+The [just-the-docs](https://pmarsceill.github.io/just-the-docs/) Jekyll theme was chosen for this project, as it gives a lot of functionality without you having to write HTML and CSS. So you can focus on writing in Markdown. 
 
-To keep your docs separate from your app code, your docs site might be in a `docs` subdirectory, a `docs` branch (still building to `gh-pages` or a separate repo.
+The theme is designed for presenting content as a documentation website, which is ideal if you have code in a repo and want to host a docs site for it without writing a lot of code. Or if you want to make a bunch of docs sites that are light on configuration and boilerplate code, making them simpler for anyone to maintain and to keep the sites in sync.
+
+To keep your docs _separated_ from your app code, your docs site might be 
+
+- in a `docs` subdirectory instead of the root
+- a `docs` branch (still building to `gh-pages`)
+- or a separate repo.
