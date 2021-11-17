@@ -2,20 +2,24 @@
 title: About
 ---
 
-## Limitations of Jekyll on plain GitHub Pages
+## Using a new Jekyll version
 
-As most Jekyll sites do, this site uses a homepage (the `index.md` page), a `Gemfile` and a config file.
+Likebmost Jekyll sites, this one uses a homepage (the `index.md` page), a `Gemfile`, and a config file.
 
-But, there are limitations of the GitHub Pages environment. You cannot use Jekyll 4 or non-standard gems and you cannot add Python, Node, Hugo, etc. to your build flow.
+But, there are limitations of the GitHub Pages environment - you cannot use Jekyll 4 or non-standard gems (your Gemfile is ignored) and you cannot add Python, Node, Hugo, etc. to your build flow.
 
-To overcome these limitations, this template project uses a GitHub Actions workflow.
+To overcome these limitations, this template project uses a GitHub Actions workflow. Allowing you to specify Jekyll 4 and other gems you want. And use other steps like compiling assets with Node.
 
 
 ## GitHub Actions setup
 
 See [main.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/.github/workflows/main.yml) workflow file.
 
-On a commit to the main branch, the CI does the following:
+That uses some _generic_ Actions, to avoid relying into an over-specialized complex Action that does too much (like many other there that do Ruby, Jekyll, building, _and_ deploying). 
+
+The generic steps mean it is easy to see exactly what the steps are doing and to modify the flow. Plus, you can reuse the steps for other projects such as deploying a React site to GH Pages. 
+
+On a commit to the main branch, the CI will do the following:
 
 1. Set up the environment.
 2. Build the site.
@@ -23,7 +27,7 @@ On a commit to the main branch, the CI does the following:
 
 Then that output is served as a static site, since GitHub Pages is enabled in _Settings_.
 
-The CI actually also runs on a PR against the main branch too - it just last skips the part of committing to the `gh-pages` branch. So you can still use the CI to test your tests and build flow works correctly, without accidentally publishing your feature branch as a deployed site.
+The CI actually will also run on a PR against the main branch too - it will just skip the last part of committing to the `gh-pages` branch. So you can still use the CI to test your tests and build flow works correctly, without accidentally publishing your feature branch as a deployed site.
 
 See [Actions](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/actions/workflows/main.yml) section on the repo for logs of job runs.
 
