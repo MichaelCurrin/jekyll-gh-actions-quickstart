@@ -1,5 +1,5 @@
 # Jekyll GH Actions Quickstart 🧪 🎬 🚀
-> Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages 
+> Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages
 
 <!-- Badges generated with https://github.com/MichaelCurrin/badge-generator -->
 
@@ -23,20 +23,7 @@
     </a>
 </div>
 
-
-## About 
-
-This project uses **GitHub Actions** to build the site with Jekyll 4 and make the output available to serve as static output with GitHub Pages. 
-
-Highlights:
-
-- [main.yml](/.github/workflows/main.yml) workflow config for GH Actions.
-- [Gemfile](/Gemfile) specifies Jekyll 4 and other custom gems.
-
-
-## Website
-
-The demo site includes a few pages of Markdown content. This also acts as a guide on how to use this project.
+<br>
 
 <div align="center">
 
@@ -45,25 +32,25 @@ The demo site includes a few pages of Markdown content. This also acts as a guid
 </div>
 
 
-## How to use this template
+## About
 
-Follow the instructions on the [Create your own](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html) page.
+This project uses **GitHub Actions** to build a site with Jekyll 4 and make the output available to serve as static output with GitHub Pages.
 
-Or click this button:
+Highlights of the repo:
+
+- [main.yml](/.github/workflows/main.yml) - workflow config for GH Actions.
+- [Gemfile](/Gemfile) - specifies Jekyll 4 and other custom gems.
+
+Follow the instructions on the [Create your own](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html) page of the demo site. That explains how to a copy of this template and set up and run it.
+
+
+## Documentation
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/generate)
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
 
 </div>
-
-
-## Related projects
-
-These use Jekyll 3.
-
-- [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) - default blog generated with Jekyll CLI. Using a theme, content, style set up, gems, and a Makefile.
-- [![MichaelCurrin - jekyll-themed-site-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo) - minimal Jekyll site with a theme but no Gemfile.
 
 
 ## License
