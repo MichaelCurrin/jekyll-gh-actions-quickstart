@@ -1,7 +1,7 @@
 ### Site metadata
 
 title: Jekyll GH Actions Quickstart
-description: Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages 
+description: Starter template for a Jekyll 4 site - deployed with GH Actions and GH Pages
 
 ### Build settings
 
@@ -17,6 +17,8 @@ defaults:
       layout: page
 
 exclude:
+  - docs/
   - LICENSE
-  - README.md
+  - Makefile
   - sample.png
+  - README.md
