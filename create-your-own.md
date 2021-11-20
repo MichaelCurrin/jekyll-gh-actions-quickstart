@@ -8,7 +8,7 @@ Get a copy of this template project which you can easily run and host on your Gi
 
 1. Copy this template to your own repos.
     - [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f)](https://github.com/MichaelCurrin/jekyll-themed-site-quickstart/generate)
-1. Configure the site by updating [\_config.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/_config.yml) file. e.g.in particular, set `url` to have your own username and `baseurl` to be 
+1. Configure the site by updating [\_config.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/_config.yml) file. e.g.in particular, set `url` to have your own username and `baseurl` to be
     - Replace title and description if you want to.
     - Update `url` to reflect your own username e.g. `https://MyUsername.github.io`.
     - Update `baseurl` to be the name of your repo e.g. `/jekyll-gh-actions-quickstart` or `/my-repo`. If not using a subpath, then use `""`.
@@ -31,11 +31,17 @@ Then you can customize your site as needed.
 
 ## Content
 
-Add and update Markdown and HTML pages.
+### Pages
 
-### Layout
+Delete the template's Markdown pages.
+
+Add your own Markdown pages.
+
+### Appearance
 
 The template is set up to give all pages the layout of `page` by default, which is define in the theme as [page.html][], which in turn uses [default.html][].
+
+Follow the docs for whatever theme you choose for how to update CSS code, if needed.
 
 ### Navbar
 
