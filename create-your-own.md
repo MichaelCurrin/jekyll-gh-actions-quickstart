@@ -3,6 +3,9 @@ title: Create your own
 description: Get a copy of this template project which you can easily run and host on your GitHub account
 ---
 
+1. TOC
+{:toc}
+
 ## Generate from template
 
 Copy this template to your own repos.
