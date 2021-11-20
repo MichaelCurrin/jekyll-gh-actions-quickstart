@@ -27,9 +27,7 @@ Follow the [Deploy][] steps of this repo's docs to set up the GH Pages site.
 [Deploy]: https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/docs/deploy.md
 
 
-## Customize
-
-Then you can customize your site as needed.
+## Configure
 
 - Update the config, such as with your own `title` and `description`.
 - Set another theme in `_config.yml` and `Gemfile`.
@@ -56,7 +54,7 @@ See the [Just the Docs docs][] for instructions on using the theme and extending
 
 The _Just The Docs_ theme will find files automatically and add them to the navbar for you. So if you are happy with alphabetical menu, then so you don't have to worry about configuring a navbar in the config.
 
-You can also set a custom ordering.
+You can also set a custom ordering with a field.
 
 The homepage is set first already because `nav_order` is set to `1`.
 
@@ -70,5 +68,8 @@ nav_order: 1
 
 A second page can be set to `2`.
 
+For more details and nesting pages in directories, see [Navigation structure][] in the theme's docs.
+
 [page.html]: https://github.com/pmarsceill/just-the-docs/blob/master/_layouts/page.html
 [default.html]: https://github.com/pmarsceill/just-the-docs/blob/master/_layouts/default.html
+[Navigation structure]: https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/
