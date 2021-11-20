@@ -36,20 +36,20 @@
     "relUrl": "/create-your-own.html#deploy-with-gh-actions-and-gh-pages"
   },"6": {
     "doc": "Create your own",
-    "title": "Customize",
-    "content": "Then you can customize your site as needed. | Update the config, such as with your own title and description. | Set another theme in _config.yml and Gemfile. | Add more plugins to Gemfile. | . ",
-    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html#customize",
-    "relUrl": "/create-your-own.html#customize"
+    "title": "Configure",
+    "content": ". | Update the config, such as with your own title and description. | Set another theme in _config.yml and Gemfile. | Add more plugins to Gemfile. | . ",
+    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html#configure",
+    "relUrl": "/create-your-own.html#configure"
   },"7": {
     "doc": "Create your own",
     "title": "Update Content",
-    "content": "Pages . Delete the template’s Markdown pages. Add your own Markdown pages. Appearance . This template is configured to give all pages the layout of page by default. That is defined in the theme as page.html, which in turn uses default.html. See the Just the Docs docs for instructions on using the theme and extending such as with CSS. Or look-up the docs for whatever theme you choose. Navbar . The Just The Docs theme will find files automatically and add them to the navbar for you. So if you are happy with alphabetical menu, then so you don’t have to worry about configuring a navbar in the config. You can also set a custom ordering. The homepage is set first already because nav_order is set to 1. --- title: Home layout: default nav_order: 1 --- . A second page can be set to 2. ",
+    "content": "Pages . Delete the template’s Markdown pages. Add your own Markdown pages. Appearance . This template is configured to give all pages the layout of page by default. That is defined in the theme as page.html, which in turn uses default.html. See the Just the Docs docs for instructions on using the theme and extending such as with CSS. Or look-up the docs for whatever theme you choose. Navbar . The Just The Docs theme will find files automatically and add them to the navbar for you. So if you are happy with alphabetical menu, then so you don’t have to worry about configuring a navbar in the config. You can also set a custom ordering with a field. The homepage is set first already because nav_order is set to 1. --- title: Home layout: default nav_order: 1 --- . A second page can be set to 2. For more details and nesting pages in directories, see Navigation structure in the theme’s docs. ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html#update-content",
     "relUrl": "/create-your-own.html#update-content"
   },"8": {
     "doc": "Create your own",
     "title": "Create your own",
-    "content": " ",
+    "content": ". | Generate from template | Deploy with GH Actions and GH Pages | Configure | Update Content . | Pages | Appearance | Navbar | . | . ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html",
     "relUrl": "/create-your-own.html"
   },"9": {
