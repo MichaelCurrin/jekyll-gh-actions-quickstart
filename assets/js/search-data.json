@@ -1,9 +1,9 @@
 {"0": {
     "doc": "About",
-    "title": "Using a new Jekyll version",
-    "content": "Likebmost Jekyll sites, this one uses a homepage (the index.md page), a Gemfile, and a config file. But, there are limitations of the GitHub Pages environment - you cannot use Jekyll 4 or non-standard gems (your Gemfile is ignored) and you cannot add Python, Node, Hugo, etc. to your build flow. To overcome these limitations, this template project uses a GitHub Actions workflow. Allowing you to specify Jekyll 4 and other gems you want. And use other steps like compiling assets with Node. ",
-    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/about.html#using-a-new-jekyll-version",
-    "relUrl": "/about.html#using-a-new-jekyll-version"
+    "title": "Using a recent Jekyll version",
+    "content": "Like most Jekyll sites, this one uses a homepage (the index.md page), a Gemfile, and a config file. But, there are limitations of the GitHub Pages environment - you cannot use Jekyll 4 or non-standard gems (your Gemfile is ignored) and you cannot add Python, Node, Hugo, etc. to your build flow. To overcome these limitations, this template project uses a GitHub Actions workflow. Allowing you to specify Jekyll 4 and other gems you want. And use other steps like compiling assets with Node. ",
+    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/about.html#using-a-recent-jekyll-version",
+    "relUrl": "/about.html#using-a-recent-jekyll-version"
   },"1": {
     "doc": "About",
     "title": "GitHub Actions setup",
@@ -13,7 +13,7 @@
   },"2": {
     "doc": "About",
     "title": "Theme",
-    "content": "A theme is set up in the Gemfile and _config.yml files. You can use any Jekyll theme you want - as long as it is compatible with Jekyll 4. The just-the-docs Jekyll theme was chosen for this project, as it gives a lot of functionality without you having to write HTML and CSS. So you can focus on writing in Markdown. The theme is designed for presenting content as a documentation website, which is ideal if you have code in a repo and want to host a docs site for it without writing a lot of code. Or if you want to make a bunch of docs sites that are light on configuration and boilerplate code, making them simpler for anyone to maintain and to keep the sites in sync. To keep your docs separated from your app code, your docs site might be . | in a docs subdirectory instead of the root | a docs branch (still building to gh-pages) | or a separate repo. | . ",
+    "content": "A theme is set up in the Gemfile and _config.yml files. You can use any Jekyll theme you want - as long as it is compatible with Jekyll 4. The just-the-docs Jekyll theme was chosen for this project, as it gives a lot of functionality without you having to write HTML and CSS. So you can focus on writing in Markdown. The theme is designed for presenting content as a documentation website, which is ideal if you have code in a repo and want to host a docs site for it without writing a lot of code. Or if you want to make a bunch of docs sites that are light on configuration and boilerplate code, making them simpler for anyone to maintain and to keep the sites in sync. To keep your docs separated from your app code, your docs site might be . | In a docs subdirectory instead of the root | A docs branch (still building to gh-pages) | Or a separate repo. | . ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/about.html#theme",
     "relUrl": "/about.html#theme"
   },"3": {
@@ -25,7 +25,7 @@
   },"4": {
     "doc": "Create your own",
     "title": "Generate from template",
-    "content": ". | Copy this template to your own repos. | . | Configure the site by updating _config.yml file. e.g.in particular, set url to have your own username and baseurl to be . | Replace title and description if you want to. | Update url to reflect your own username e.g. https://MyUsername.github.io. | Update baseurl to be the name of your repo e.g. /jekyll-gh-actions-quickstart or /my-repo. If not using a subpath, then use \"\". | . | . ",
+    "content": "Copy this template to your own repos. Use this template . Configure the site by updating _config.yml file: . | Update url to reflect your own username e.g. https://MyUsername.github.io. | Update baseurl to be the name of your repo e.g. /jekyll-gh-actions-quickstart or /my-repo. If not using a subpath, then use \"\". | . ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html#generate-from-template",
     "relUrl": "/create-your-own.html#generate-from-template"
   },"5": {
@@ -37,31 +37,31 @@
   },"6": {
     "doc": "Create your own",
     "title": "Customize",
-    "content": "Then you can customize your site as needed. | Update the config further. | Set another theme in _config.yml and Gemfile. | Add more plugins to Gemfile. | . ",
+    "content": "Then you can customize your site as needed. | Update the config, such as with your own title and description. | Set another theme in _config.yml and Gemfile. | Add more plugins to Gemfile. | . ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html#customize",
     "relUrl": "/create-your-own.html#customize"
   },"7": {
     "doc": "Create your own",
     "title": "Update Content",
-    "content": "Pages . Delete the template’s Markdown pages. Add your own Markdown pages. Appearance . The template is set up to give all pages the layout of page by default, which is define in the theme as page.html, which in turn uses default.html. Follow the docs for whatever theme you choose for how to update CSS code, if needed. Navbar . The Just The Docs theme will find files automatically and add them to the navbar for you. So if you are happy with alphabetical menu, then so you don’t have to worry about configuring a navbar in the config. You can also set a custom ordering. The homepage is set first already because nav_order is set to 1. --- title: Home layout: default nav_order: 1 --- . A second page can be set to 2. ",
+    "content": "Pages . Delete the template’s Markdown pages. Add your own Markdown pages. Appearance . This template is configured to give all pages the layout of page by default. That is defined in the theme as page.html, which in turn uses default.html. See the Just the Docs docs for instructions on using the theme and extending such as with CSS. Or look-up the docs for whatever theme you choose. Navbar . The Just The Docs theme will find files automatically and add them to the navbar for you. So if you are happy with alphabetical menu, then so you don’t have to worry about configuring a navbar in the config. You can also set a custom ordering. The homepage is set first already because nav_order is set to 1. --- title: Home layout: default nav_order: 1 --- . A second page can be set to 2. ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html#update-content",
     "relUrl": "/create-your-own.html#update-content"
   },"8": {
     "doc": "Create your own",
     "title": "Create your own",
-    "content": "Get a copy of this template project which you can easily run and host on your GitHub account. ",
+    "content": " ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html",
     "relUrl": "/create-your-own.html"
   },"9": {
     "doc": "Home",
     "title": "Home",
-    "content": ". Welcome to Jekyll GH Actions Quickstart project - a template, demo and tutorial. This site acts a demo of a site build with Jekyll 4, GitHub Actions and the just-the-docs Jekyll theme. The pages here also provide guidance on how and why this setup was made and how to get your own copy of this template so you can deploy too. Source code: . ",
+    "content": "Welcome to Jekyll GH Actions Quickstart project - a template, demo and tutorial. This site acts a demo of a site build with Jekyll 4, GitHub Actions and the just-the-docs Jekyll theme. The pages here also provide guidance on how and why this setup was made and how to get your own copy of this template so you can deploy too. Getting started View source . ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/",
     "relUrl": "/"
   },"10": {
     "doc": "Local setup",
     "title": "Local setup",
-    "content": "The focus on is on editing content and letting the theme take care of virtually all the appearance and templating concerns. So for simple use on a small site, you might be happy doing all the editing on GitHub and your testing on the deploy GH Pages site. For more quality control, you can set up the site with a local dev server. See instructions in this repo’s docs. ",
+    "content": "The focus on is on editing content and letting the theme take care of virtually all the appearance and templating concerns. So, for simple site with few pages, you might be happy doing all the editing on GitHub and your testing on the deploy GH Pages site. For more quality control, you can set up the site with a local dev server. See instructions in this repo’s docs. ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/local-setup.html",
     "relUrl": "/local-setup.html"
   },"11": {
@@ -72,20 +72,20 @@
     "relUrl": "/resources.html#gh-pages-and-gh-actions"
   },"12": {
     "doc": "Resources",
-    "title": "Jekyll",
-    "content": ". | Ruby resources. | Jekyll resources. | A static site generator which uses Markdown or HTML content and allows use of themes. | . | Just The Docs - a theme on RubyGems which is used by this template. | . ",
-    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/resources.html#jekyll",
-    "relUrl": "/resources.html#jekyll"
+    "title": "Jekyll-related",
+    "content": ". | Ruby resources. | Jekyll is written in Ruby, so you need Ruby installed. | . | Jekyll resources. | A static site generator which uses Markdown or HTML content and allows use of themes. | . | Just The Docs - a theme on RubyGems which is used by this template. | . ",
+    "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/resources.html#jekyll-related",
+    "relUrl": "/resources.html#jekyll-related"
   },"13": {
     "doc": "Resources",
     "title": "Related template projects",
-    "content": "If you are interested in seeing similar, have a look here. Note , these use Jekyll 3 only and no GH Actions. | - default blog generated with Jekyll CLI. Using a theme, content, style set up, gems, and a Makefile. | - minimal Jekyll site with a theme but no Gemfile. | - React site uses GH Actions to build the site with NPM and deploy the results as a GH Pages site. | ] - Vue site uses GH Actions to build the site with NPM and deploy the results as a GH Pages site. | - static built with Hugo, as a faster and more modern static-site generator. | . ",
+    "content": "If you are interested in seeing similar, have a look here. Note , these use Jekyll 3 only and no GH Actions. | . | default blog generated with Jekyll CLI. Using a theme, content, style set up, gems, and a Makefile. | . | . | minimal Jekyll site with a theme but no Gemfile. | . | . | React site uses GH Actions to build the site with NPM and deploy the results as a GH Pages site. | . | . | Vue site uses GH Actions to build the site with NPM and deploy the results as a GH Pages site. | . | . | static built with Hugo, as a faster and more modern static-site generator. | . | . ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/resources.html#related-template-projects",
     "relUrl": "/resources.html#related-template-projects"
   },"14": {
     "doc": "Resources",
     "title": "Resources",
-    "content": "If you want to learn how about the tools and services used to make this project, see the links below. ",
+    "content": " ",
     "url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/resources.html",
     "relUrl": "/resources.html"
   }
