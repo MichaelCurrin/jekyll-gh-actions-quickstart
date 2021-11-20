@@ -7,12 +7,16 @@ Get a copy of this template project which you can easily run and host on your Gi
 
 ## Generate from template
 
-1. Copy this template to your own repos.
-    - [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f)](https://github.com/MichaelCurrin/jekyll-themed-site-quickstart/generate)
-1. Configure the site by updating [\_config.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/_config.yml) file. e.g.in particular, set `url` to have your own username and `baseurl` to be
-    - Replace `title` and `description` if you want to.
-    - Update `url` to reflect your own username e.g. `https://MyUsername.github.io`.
-    - Update `baseurl` to be the name of your repo e.g. `/jekyll-gh-actions-quickstart` or `/my-repo`. If not using a subpath, then use `""`.
+Copy this template to your own repos.
+
+[Use this template][]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+Configure the site by updating [\_config.yml](https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart/blob/main/_config.yml) file:
+
+- Update `url` to reflect your own username e.g. `https://MyUsername.github.io`.
+- Update `baseurl` to be the name of your repo e.g. `/jekyll-gh-actions-quickstart` or `/my-repo`. If not using a subpath, then use `""`.
+
+[Use this template]: https://github.com/MichaelCurrin/jekyll-themed-site-quickstart/generate
 
 
 ## Deploy with GH Actions and GH Pages
@@ -26,7 +30,7 @@ Follow the [Deploy][] steps of this repo's docs to set up the GH Pages site.
 
 Then you can customize your site as needed.
 
-- Update the config further.
+- Update the config, such as with your own `title` and `description`.
 - Set another theme in `_config.yml` and `Gemfile`.
 - Add more plugins to `Gemfile`.
 
