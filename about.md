@@ -1,8 +1,9 @@
 ---
 title: About
+description: On Jekyll, GH Actions, and a theme with this template
 ---
 
-## Using a new Jekyll version
+## Using a recent Jekyll version
 
 Like most Jekyll sites, this one uses a homepage (the `index.md` page), a `Gemfile`, and a config file.
 

@@ -1,9 +1,7 @@
 ---
 title: Create your own
+description: Get a copy of this template project which you can easily run and host on your GitHub account
 ---
-
-Get a copy of this template project which you can easily run and host on your GitHub account.
-
 
 ## Generate from template
 
@@ -45,9 +43,11 @@ Add your own Markdown pages.
 
 ### Appearance
 
-The template is set up to give all pages the layout of `page` by default, which is define in the theme as [page.html][], which in turn uses [default.html][].
+This template is configured to give all pages the layout of `page` by default. That is defined in the theme as [page.html][], which in turn uses [default.html][].
 
-Follow the docs for whatever theme you choose for how to update CSS code, if needed.
+See the [Just the Docs docs][] for instructions on using the theme and extending such as with CSS. Or look-up the docs for whatever theme you choose.
+
+[Just the Docs docs]: https://pmarsceill.github.io/just-the-docs/
 
 ### Navbar
 
