@@ -1,0 +1,18 @@
+---
+layout: default
+# The theme's layout unfortunately doesn't add the `title` of a page as H1,
+# so this is done as an override here.
+---
+{% if page.title and page.title != '' %}
+<h1>{{ page.title }}</h1>
+{% endif %}
+
+{% if page.description and page.description != '' %}
+<p class="fs-6 fw-300">
+    {{ page.description }}
+</p>
+{% endif %}
+
+<hr>
+
+{{ content }}
