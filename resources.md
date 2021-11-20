@@ -3,6 +3,7 @@ title: Resources
 description: Learn how about the tools and services used to make this project.
 ---
 
+
 ## GH Pages and GH Actions
 
 - [GitHub Actions](https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/) resources.
