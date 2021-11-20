@@ -19,7 +19,7 @@
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/">
-        <img src="/sample.png" alt="Sample screenshot" title="Go to demo site" width="500" />
+        <img src="/sample.png" alt="Sample screenshot" title="Go to demo site" width="600" />
     </a>
 </div>
 
