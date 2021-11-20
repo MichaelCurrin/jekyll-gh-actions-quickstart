@@ -18,3 +18,5 @@ $ make build
 ```
 
 View the output in `_site` directory, which can then be served as a static site.
+
+See [Deploy](deploy.md) for setting up GH Pages.
