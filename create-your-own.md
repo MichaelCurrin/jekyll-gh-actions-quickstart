@@ -1,6 +1,6 @@
 ---
 title: Create your own
-description: Get a copy of this template project which you can easily run and host on your GitHub account
+description: Copy this template to your own repos and then deploy to GH Pages
 ---
 
 1. TOC
