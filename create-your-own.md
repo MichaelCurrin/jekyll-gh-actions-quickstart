@@ -48,7 +48,7 @@ This template is configured to give all pages the layout of `page` by default. T
 
 See the [Just the Docs docs][] for instructions on using the theme and extending such as with CSS. Or look-up the docs for whatever theme you choose.
 
-[Just the Docs docs]: https://pmarsceill.github.io/just-the-docs/
+[Just the Docs docs]: https://just-the-docs.github.io/just-the-docs/
 
 ### Navbar
 
@@ -70,6 +70,6 @@ A second page can be set to `2`.
 
 For more details and nesting pages in directories, see [Navigation structure][] in the theme's docs.
 
-[page.html]: https://github.com/pmarsceill/just-the-docs/blob/master/_layouts/page.html
-[default.html]: https://github.com/pmarsceill/just-the-docs/blob/master/_layouts/default.html
-[Navigation structure]: https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/
+[page.html]: https://github.com/just-the-docs/just-the-docs/blob/master/_layouts/page.html
+[default.html]: https://github.com/just-the-docs/just-the-docs/blob/master/_layouts/default.html
+[Navigation structure]: https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/

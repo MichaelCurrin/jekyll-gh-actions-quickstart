@@ -6,7 +6,7 @@ nav_order: 1
 
 Welcome to **Jekyll GH Actions Quickstart** project - a template, demo and tutorial.
 
-This site acts a demo of a site build with Jekyll 4, GitHub Actions and the [just-the-docs](https://pmarsceill.github.io/just-the-docs/) Jekyll theme.
+This site acts a demo of a site build with Jekyll 4, GitHub Actions and the [just-the-docs](https://just-the-docs.github.io/just-the-docs/) Jekyll theme.
 
 The pages here also provide guidance on how and why this setup was made and how to get your own copy of this template so you can deploy too.
 
