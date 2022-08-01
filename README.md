@@ -36,6 +36,8 @@
 
 This project uses **GitHub Actions** to build a site with Jekyll 4 and make the output available to serve as static output with GitHub Pages.
 
+If you are unfamiliar with any of those tools, see the [GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) tutorial on the Jekyll docs. That tutorial links back to this repo.
+
 Highlights of the repo:
 
 - [main.yml](/.github/workflows/main.yml) - workflow config for GH Actions.
