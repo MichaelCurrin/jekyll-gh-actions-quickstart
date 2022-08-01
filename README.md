@@ -41,6 +41,8 @@ Highlights of the repo:
 - [main.yml](/.github/workflows/main.yml) - workflow config for GH Actions.
 - [Gemfile](/Gemfile) - specifies Jekyll 4 and other custom gems.
 
+ For a theme, `just-the-docs` is installed in the Gemfile and configured in the config file, but you can easily swap that for another theme.
+
 Follow the instructions on the [Create your own](https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/create-your-own.html) page of the demo site. That explains how to a copy of this template and set up and run it.
 
 
